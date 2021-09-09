@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    --primary: #0000FF;
+    --black: #00001A;
+    background-color: #fafafa;
+}
+
+hr {
+    opacity: 5%;
+    color: var(--black);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title .mainTitle {
+    color: var(--lack);
+    font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: -0.15rem;
+}
+
+.title .metierTitle {
+    color: var(--primary);
+    font-size: small;
+    font-weight: 800;
+    margin-top: -0.5rem;
+    font-size: 0.8rem;
+    text-align: right;
+    margin-left: auto;
+}
+
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.nav li {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-weight: 400;
+    padding: 1rem;
+    color: var(--black);
+}
+
+.nav li .ongletActif {
+    border-radius: 4px;
+    background-color: #0000FF08;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.texteBienvenue {
+    vertical-align: top;
+    margin-top: 3rem;
+}
+
+.texteBienvenue h2 {
+    font-weight: 600;
+}
+
+.photoHome {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: small;
+}
+
+.photoHome .homePp {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: small;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+footer .meContacter {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 4px;
+    border: var(--primary) solid 2px;
+    width: fit-content;
+    text-align: center;
+    writing-mode: horizontal-tb;
+}
+
+footer .meContacter .ph-envelope-simple-bold {
+    font-size: 1.4rem;
+}
